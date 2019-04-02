@@ -1,7 +1,8 @@
 import json
 import requests
 
-request = "capability"
+request = input("Please enter request: ")
+print("searching...")
 # https://github.blog/2013-05-16-personal-api-tokens/
 token = "enter_your_token"
 
