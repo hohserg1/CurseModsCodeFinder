@@ -3,8 +3,7 @@ import cloudscraper
 from bs4 import BeautifulSoup
 import time
 
-scraper = cloudscraper.create_scraper()  # returns a CloudScraper instance
-# Or: scraper = cloudscraper.CloudScraper()  # CloudScraper inherits from requests.Session
+scraper = cloudscraper.create_scraper()
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
