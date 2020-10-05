@@ -6,7 +6,7 @@ import time
 
 #request = input("Please enter request: ")
 
-token = "033eb3d1a6a71d22fc591b772cf59d6e89e6b5de"
+token = "your-token"
 
 headersRaw = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:45.0) Gecko/20100101 Firefox/45.0',
